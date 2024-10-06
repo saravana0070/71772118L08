@@ -1,0 +1,9 @@
+name: Assignment1
+on: push
+jobs:
+    my-job:
+      runs-on: ubuntu-latest
+      steps:
+        - name: my-step
+          run: echo "71772118L08 DevOps Assignment1"
+   
